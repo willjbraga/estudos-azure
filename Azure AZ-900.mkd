@@ -1,0 +1,55 @@
+# Conceitos de Nuvem 
+
+## Descrever os conceitos em nuvem
+
+### O que é a computação em nuvem?
+
+Computação em nuvem é a entrega de serviços pela internet. os serviços de computação podem ser infraestrutura de TI como máquinas virtuais, armazenamento, banco de dados e redes.
+
+Um exemplo:
+
+com a computação em nuvem você não precisa comprar um servidor novo a cada vez que precisa oferecer um software, ou não precisa comprar mais ran ou ssd. Basta configurar na nuvem que tudo isso vai ser provisionado rapidamente sem você ter que esperar peças novas chegarem.
+
+### Modelo de Responsabilidade Compartilhada
+
+Quando falamaos de modelo de responsabildiade compartilhada em nuvem, queremos entender de quem é a responsabilidade em cada parte. Enquanto em um datacenter local a responsabilidade é totalmente da empresa em manter energia, rede softwares na versão correta, em nuvem a responsabilidade é diferente pois as reponsabildiades pode ser:
+
+- Nuvem: Tem a responsabilidade de manter a rede, armazenamento, refrigeração, ou seja, grande parte da parte fisíca ou toda parte fisíca
+- Cliente: é responsável pelos dados armazenados, pela segurança de acesso aos dados.
+
+mas a responsabilidade depende depende do tipo de serviço de nuvem que será usado
+
+sendo eles:
+
+- IaaS: infraestrutura como serviço 
+- PaaS: plataforma como serviço
+- SaaS: software como serviço
+- On premisse: basicamente um data center local
+
+![alt text](image.png)
+
+#### O que sempre fica com você
+Ao usar um provedor de nuvem, você sempre será responsável por:
+
+- As informações e os dados armazenados na nuvem
+- Dispositivos que têm permissão para se conectar à nuvem (celulares, computadores e assim por diante)
+- As contas e identidades das pessoas, serviços e dispositivos em seu ambiente
+
+#### O que o provedor sempre possui
+O provedor de nuvem é sempre responsável por:
+
+- O datacenter físico
+- A rede física
+- Hosts físicos
+- Infraestrutura
+
+#### O que depende do tipo de serviço
+
+Seu modelo de serviço determinará a responsabilidade por itens como:
+
+- Sistemas operacionais
+- Controles de rede
+- Aplicativos
+- Identidade e acesso
+
+Por exemplo, a identidade e o acesso são compartilhados no PaaS e no SaaS– você gerencia seus próprios usuários, funções e políticas, enquanto o provedor executa a plataforma de autenticação (como Microsoft Entra ID). Por outro lado, a infraestrutura passa a ser inteiramente de responsabilidade do provedor assim que você migra para a IaaS.
